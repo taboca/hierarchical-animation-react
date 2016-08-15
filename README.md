@@ -15,6 +15,33 @@ node index.js
 
 And visit <http://localhost:3000/>.
 
+## Example of animation tree
+
+```
+ var globalData = {"root":
+     {
+       "content":"This is just a content....",
+       "ref":"element reference",
+       "animation":"typing",
+       "childs":[
+         {
+           "content":"## This is just a content....",
+           "ref":"element reference",
+           "animation":"typing",
+           "childs":null
+         },
+         {
+           "content":"## This is just a content....",
+           "ref":"element reference",
+           "animation":"static",
+           "childs":null
+         }
+       ]
+     }
+ }
+
+
+```
 ## Author
 
 This is an experiment and learning initiative. Please contribute to the discussion. 
